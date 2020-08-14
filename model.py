@@ -14,7 +14,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import pickle
 
-dataframe = pd.read_csv("C:\\Users\\Ahmed\\Desktop\\diabetes\\datasets_diabetes.csv")
+dataframe = pd.read_csv("datasets_diabetes.csv")
 dataframe.head()
 
 df_label = dataframe['Outcome']
